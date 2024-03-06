@@ -1,8 +1,8 @@
+"use client";
 import Item from "./item";
-import items from './items.json' assert { type: 'json' };
 import { useState } from "react";
 
-export default function ItemList() {
+export default function ItemList({ items }) {
 
   const [sortBy, setSortBy] = useState("name");
 
