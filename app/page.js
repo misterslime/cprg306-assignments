@@ -13,7 +13,7 @@ export default function Home() {
       <Link href="/week-7">Week 7</Link>
       <Link href="/week-8">Week 8</Link>
       <p>Week 9 (doesn't exist)</p>
-      <Link href="/week-9">Week 10</Link>
+      <Link href="/week-10">Week 10</Link>
     </main>
   );
 }
